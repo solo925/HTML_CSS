@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class="logo">Logo</div>
+        <div class="logo">
+            <img src="./images/Screenshot at 2024-09-03 16-42-41.png" alt="logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -25,29 +29,30 @@
                 <img src="./images/Sing-Inspire-Oct-15-1237-199.jpg" alt="User Avatar">
             </div>
         </div>
-        
+
     </header>
-    
+
     <main>
-   
+
 
         <div class="checkout-container">
             <div class="checkout-form">
                 <div class="checkout-steps">
-                    <a href="#" class="active">Account</a>
-                    <span>—</span>
-                    <a href="#">Shipping</a>
-                    <span>—</span>
-                    <a href="#">Payment</a>
+                    <a href="#">Account</a>
+                    <span class="icon-rtl">—</span>
+                    <a href="#" class="active">Shipping</a>
+                    <span class="icon-rtl">—</span>
+                    <a href="#" class="active">Payment</a>
                 </div>
-                <h2>Account details</h2>
+                <h2 style="background-color:#F7FAFC;">Account details</h2>
                 <form>
                     <label for="email">Email address</label>
-                    <input type="email" id="email" placeholder="Email@myemail.com">
-                    
+                    <input class="icon-rtl" type="email" id="email" placeholder="Email@myemail.com">
+
+
                     <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="********">
-                    
+                    <input class="icon-rtl" type="password" id="password" placeholder="********">
+
                     <div class="form-actions">
                         <button class="register-btn">Register for account</button>
                         <button class="login-btn">Login</button>
@@ -66,29 +71,31 @@
                     <img src="./images/headphones.jpg" alt="Sony wireless headphones">
                     <div class="item-details">
                         <div class="last">
-                        <h3>Sony wireless headphones</h3>
-                        <p style="right:0px;top:0;">£320.45</p>
+                            <h3>Sony wireless headphones</h3>
+                            <p style="right:0px;top:0;">£320.45</p>
                         </div>
 
-                    <!-- </div>
+                        <!-- </div>
                     <div class="quantity"> -->
                         <button>-</button>
                         <span>1</span>
                         <button>+</button>
                     </div>
                 </div>
+                <p style="color: gray;">Gift Card / Discount code</p>
                 <div class="discount">
-                    <input type="text" placeholder="Gift Card / Discount code">
+                    <input type="text">
                     <button class="apply-btn">Apply</button>
                 </div>
                 <div class="summary-totals">
                     <p>Sub total <span>£316.55</span></p>
                     <p>Tax <span>£3.45</span></p>
-                    <p>Shipping <span>Free</span></p>
+                    <p>Shipping <span style="color:#38B2AC;">Free</span></p>
                     <p class="total">Total <span>£320.45</span></p>
                 </div>
             </div>
         </div>
     </main>
 </body>
+
 </html>
