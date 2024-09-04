@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   box-sizing: border-box;
+=======
+  /* box-sizing: border-box; */
+>>>>>>> f7d382a (Initial commit after reset)
 }
 
 body {
@@ -83,6 +87,10 @@ header nav ul li a {
   width: 100%; /* Ensure the image fits within the circle */
   height: 100%;
   object-fit: cover; /* Cover the area without distorting the image */
+<<<<<<< HEAD
+=======
+  background: #fff;
+>>>>>>> f7d382a (Initial commit after reset)
 }
 
 main {
@@ -159,7 +167,11 @@ main {
 }
 
 .register-btn {
+<<<<<<< HEAD
   background-color: #f7f7f7;
+=======
+  background-color: rgb(214, 210, 210);
+>>>>>>> f7d382a (Initial commit after reset)
 }
 
 .login-btn {
@@ -184,7 +196,11 @@ main {
 }
 
 .cancel-btn {
+<<<<<<< HEAD
   background-color: #f7f7f7;
+=======
+  background-color: rgb(214, 210, 210);
+>>>>>>> f7d382a (Initial commit after reset)
 }
 
 .shipping-btn {
@@ -216,6 +232,10 @@ main {
   height: 200px;
   margin-bottom: 15px;
   border-radius: 5px;
+<<<<<<< HEAD
+=======
+  object-fit: cover;
+>>>>>>> f7d382a (Initial commit after reset)
 }
 .last {
   display: flex;
@@ -299,10 +319,33 @@ main {
 
 .icon-rtl {
   padding-right: 25px;
+<<<<<<< HEAD
   background: url("./images/tick.jpg") no-repeat right;
+=======
+  background: url("./images/real.png") no-repeat right;
+>>>>>>> f7d382a (Initial commit after reset)
   background-size: 20px;
 }
 
 form {
   padding-bottom: 20px;
 }
+<<<<<<< HEAD
+=======
+
+.basket {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+}
+.basket img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #fff;
+}
+>>>>>>> f7d382a (Initial commit after reset)
