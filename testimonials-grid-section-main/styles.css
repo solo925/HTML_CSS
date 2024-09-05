@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  overflow: hidden; /*prevents the screen from being scrolled*/
+  /*prevents the screen from being scrolled*/
+  /* overflow: hidden;  */
 }
 
 .container {
