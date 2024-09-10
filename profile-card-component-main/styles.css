@@ -23,7 +23,8 @@ body {
 }
 
 .card-header {
-  background: url("https://via.placeholder.com/350x150") no-repeat center;
+  /* background: url("") no-repeat center; */
+  background-color: #31d8e7;
   background-size: cover;
   height: 100px;
   position: relative;
@@ -43,6 +44,7 @@ body {
 .card-body {
   margin-top: 40px;
   padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
 }
 
 .card-body h2 {
@@ -64,9 +66,10 @@ body {
 }
 
 .card-footer {
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 20px 0;
   display: flex;
+
   justify-content: space-around;
 }
 
@@ -81,5 +84,11 @@ body {
 
 .card-footer p {
   color: #999;
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }

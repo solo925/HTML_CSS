@@ -12,3 +12,5 @@ Testimonial Grid Section
 ![alt text](image-3.png)
 four card feature section
 ![alt text](image-5.png)
+profile Card Component
+![alt text](image-6.png)
